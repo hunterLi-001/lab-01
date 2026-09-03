@@ -1,5 +1,6 @@
 package com.example.petshop
 
 abstract class Mood(val date: String) {
-    abstract fun getDate(): String
+    abstract fun getMood(): String
 }
+
